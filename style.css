@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poppins:wght@300;400&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  margin-left: 50;
+  background-color: #f8ad9d;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+  min-height: 500px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 50px;
+  transition: 0.8s ease;
+}
+
+img:hover {
+  margin-bottom: 20px;
+  box-shadow: 12px 12px #07072c;
+}
+
+.darkestPeach {
+  background-color: #f08080;
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
+  align-content: center;
+}
+
+.darkPeach {
+  background-color: #f4978e;
+}
+
+.Peach {
+  background-color: #f8ad9d;
+  display: grid;
+}
+
+.lightPeach {
+  background-color: #f7dba7;
+  color: White;
+  font-family: "Poppins", sans-serif;
+  align-content: center;
+}
+
+.awards:hover {
+  margin-bottom: 20px;
+  box-shadow: 12px 12px wheat;
+}
+
+.gray {
+  font-family: "Poppins", sans-serif;
+}
+
+.whitePeach {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: opacity(0);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: opacity(100%);
+  transform: translateX(0);
+}
+
+@media (prefers-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+span {
+  font-family: "Lobster", cursive;
+}
+.final {
+  gap: 1rem;
+  font-family: "Dancing Script", cursive;
+  background-image: url("https://i.pinimg.com/originals/b5/c1/f1/b5c1f10192ce092412534f0af8ea72e4.gif?width=1246&height=701");
+}
+
+.move {
+  margin-right: 1000px;
+}
